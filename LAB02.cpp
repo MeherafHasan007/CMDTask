@@ -1,4 +1,4 @@
-//determine weather identifier or not
+//determine whether identifier or not
 
 #include <iostream>
 #include <string.h>
