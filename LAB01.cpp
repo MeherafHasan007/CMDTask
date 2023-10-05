@@ -1,4 +1,4 @@
-//determine weather operator or not
+//determine whether operator or not
 
 #include <iostream>
 using namespace std;
