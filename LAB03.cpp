@@ -1,4 +1,4 @@
-//determine weather Number or not
+//determine whether Number or not
 
 #include <iostream>
 #include <string.h>
