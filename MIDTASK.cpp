@@ -15,10 +15,10 @@ bool isPunctuation(char c)
     return (c == ';' || c == ':' || c == '.' || c == '!' || c == '(' || c == ')' || c == '[' || c == ']' || c == '{' || c == '}' || c == '<' || c == '>');
 }
 
-// Define arrays for custom keywords and data types
+// Define arrays for custom keyword
 string myKeywords[] = {"if", "else", "int", "float", "double", "while"};
 
-// Function to check if a token is a custom keyword or data type
+// Function to check if a token is a custom keyword
 bool isMyKeyword(const string& token) {
     for (const string& keyword : myKeywords) {
         if (token == keyword) {
