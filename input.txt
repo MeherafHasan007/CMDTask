@@ -1,0 +1,13 @@
+while (count < 10)
+{
+    int i = 0;
+    float x = 3.14;
+    if (x > 2.5)
+    {
+        cout << "x is greater";
+    }
+    else
+    {
+        cout << "x is not greater";
+    }
+}
