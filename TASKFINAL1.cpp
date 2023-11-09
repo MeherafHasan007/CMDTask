@@ -1,3 +1,21 @@
+/*LAB 3
+
+Write C++ code to identify relational operators and label them from a given expression.
+
+
+Input: x == 5 Output: == Equal to
+
+Input: y >= n
+Output: >= Greater than or equal to
+
+Input: x > 5
+Output: > Greater than
+
+Your code should scan each string one character at a time.
+
+Submit a PDF report with code and screen shot of your console output. Mention your Name & Section*/
+
+
 #include <iostream>
 #include <fstream>
 #include <string>
