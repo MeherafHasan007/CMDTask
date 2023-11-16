@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <algorithm>
 
 using namespace std;
 
@@ -19,9 +18,12 @@ bool isPunctuation(char c)
 string myKeywords[] = {"if", "else", "int", "float", "double", "while"};
 
 // Function to check if a token is a keyword
-bool isMyKeyword(const string& token) {
-    for (const string& keyword : myKeywords) {
-        if (token == keyword) {
+bool isMyKeyword(const string& token)
+{
+    for (const string& keyword : myKeywords)
+    {
+        if (token == keyword)
+        {
             return true;
         }
     }
@@ -29,13 +31,17 @@ bool isMyKeyword(const string& token) {
 }
 
 // Function to check if a token is a valid identifier
-bool isValidIdentifier(const string& token) {
-    if (token.empty()) {
+bool isValidIdentifier(const string& token)
+{
+    if (token.empty())
+    {
         return false;
     }
 
-    for (char c : token) {
-        if (!isalnum(c) && c != '_') {
+    for (char c : token)
+    {
+        if (!isalnum(c) && c != '_')
+        {
             return false;
         }
     }
@@ -112,7 +118,8 @@ int main()
                     {
                         cout << currentChar << " is a keyword" << endl;
                     }
-                    else if (currentChar == ">>" || currentChar == "<<" || currentChar == ">>>") {
+                    else if (currentChar == ">>" || currentChar == "<<" || currentChar == ">>>")
+                    {
                         cout << currentChar << " is a punctuation" << endl;
                     }
                     else
